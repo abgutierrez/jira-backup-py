@@ -1,0 +1,12 @@
+{
+    "JIRA_HOST": "<<NOMBRE-SITIO>>.atlassian.net",
+    "INCLUDE_ATTACHMENTS": "true",
+    "JIRA_EMAIL": "<<ACA_PONER_JIRA_EMAIL>>",
+    "API_TOKEN": "<<ACA_PONER_JIRA_TOKEN>>",
+    "DOWNLOAD_LOCALLY": "true",
+    "UPLOAD_TO_S3": {
+        "S3_BUCKET": "",
+        "AWS_ACCESS_KEY": "",
+        "AWS_SECRET_KEY": ""
+    }
+}

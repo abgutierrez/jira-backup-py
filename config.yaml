@@ -1,9 +1,9 @@
 --- 
-HOST_URL: "something.atlassian.net"
-USER_EMAIL: "email address for the Atlassian account you're using to create the token (user.name@company.com)"
-API_TOKEN: "token ID generated at https://id.atlassian.com/manage/api-tokens"
-INCLUDE_ATTACHMENTS: "include attachments? this will make the backup size bigger - true / false"
-DOWNLOAD_LOCALLY: "download the backup file to backups folder? true / false"
+HOST_URL: "<<NOMBRE_SITIO>>.atlassian.net"
+USER_EMAIL: "<<USER_EMAIL>>"
+API_TOKEN: "<<API_TOKEN>>"
+INCLUDE_ATTACHMENTS: "true"
+DOWNLOAD_LOCALLY: "true"
 UPLOAD_TO_S3:
     AWS_ENDPOINT_URL: "amazon S3 endpoints https://docs.aws.amazon.com/general/latest/gr/s3.html"
     AWS_REGION: "amazon S3 region"
